@@ -2,7 +2,9 @@
 
 This is a test of creating a github repo that contains source files for a static application, which must be run through a build step to generate the immediately usable static version of that app, and then publishing the built static app to npm.
 
-This is a trivial example; just an experiment to try making an NPM 'package' that is not a require-able 'module'.
+In NPM parlance, this is an example of a ["package"](https://docs.npmjs.com/misc/developers#what-is-a-package) that is not a ["module:"](https://docs.npmjs.com/getting-started/creating-node-modules)
+
+> Most npm packages are modules, because they are libraries that you load with require.  However, there's  no  requirement that an npm package be a module!  Some only contain an executable command-line interface, and don't provide a main field for use in Node programs.
 
 ## What GitHub Sees
 
