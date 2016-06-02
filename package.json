@@ -1,7 +1,7 @@
 {
   "name": "transpiled-published-static-application-demo",
   "version": "0.1.2",
-  "description": "An example of publishing source of GitHub and a built application on npm.",
+  "description": "An example of publishing source on GitHub but a built application on npm.",
   "scripts": {
     "clean": "rm -rf dist",
     "build": "mkdir -p dist && cp src/index.html dist/index.html && webpack",
