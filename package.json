@@ -1,6 +1,6 @@
 {
   "name": "transpiled-published-static-application-demo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An example of publishing source of GitHub and a built application on npm.",
   "scripts": {
     "clean": "rm -rf dist",
