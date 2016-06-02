@@ -5,7 +5,8 @@
   "scripts": {
     "clean": "rm -rf dist",
     "build": "mkdir -p dist && cp src/index.html dist/index.html && webpack",
-    "prepublish": "npm run clean && npm run build"
+    "preversion": "npm run clean && npm run build",
+    "postversion": "git push --tags && npm publish"
   },
   "files": [
     "dist/"
