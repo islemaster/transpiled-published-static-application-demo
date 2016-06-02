@@ -6,7 +6,7 @@
     "clean": "rm -rf dist",
     "build": "mkdir -p dist && cp src/index.html dist/index.html && webpack",
     "preversion": "npm run clean && npm run build",
-    "postversion": "git push --tags && npm publish"
+    "postversion": "git push && git push --tags && npm publish"
   },
   "files": [
     "dist/"
